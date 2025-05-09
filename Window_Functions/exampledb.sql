@@ -28,4 +28,13 @@ VALUES
     (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Mehmet Korkmaz'), 200.75, '2025-04-02'),
     (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Ayşe Demir'), 150.25, '2025-04-03'),
     (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Ahmet Yılmaz'), 180.00, '2025-04-04'),
-    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Mehmet Korkmaz'), 90.00, '2025-04-05');
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Mehmet Korkmaz'), 90.00, '2025-04-05'),
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Ahmet Yılmaz'), 250.00, '2025-04-06'),
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Mehmet Korkmaz'), 120.00, '2025-04-07'),
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Ayşe Demir'), 300.00, '2025-04-08'),
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Ahmet Yılmaz'), 180.50, '2025-04-09'),
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Mehmet Korkmaz'), 220.00, '2025-04-10'),
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Ayşe Demir'), 180.00, '2025-04-05'),
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Ahmet Yılmaz'), 180.00, '2025-04-02'),
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Ayşe Demir'), 1000.00, '2025-04-11'),
+    (NEWID(), (SELECT customer_id FROM Customers WHERE customer_name = 'Ahmet Yılmaz'), 1500.00, '2025-04-12');
