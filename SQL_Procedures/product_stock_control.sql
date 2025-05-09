@@ -21,7 +21,7 @@ BEGIN
 
     IF @Stock < @Quantity
     BEGIN
-        THROW 50002, 'Yeterli stok yok.', 1;
+        THROW 50003, 'Yeterli stok yok.', 1;
     END
 
     SELECT 'Stok yeterli.' AS Result;
